@@ -1,23 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Daily Commit 🔥</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Daily Dev Quotes 🔥</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>My Daily Commits</h1>
-  <!-- Add a new <p> every commit like this -->
-  <p>Commit #1 - July 6, 2025</p>
+  <h1>💬 Daily Dev Quotes</h1>
+  <ul id="quote-list"></ul>
+  <button id="newQuoteBtn">🔁 New Quote</button>
+
+  <script src="quotes.js"></script>
+  <script>
+    const btn = document.getElementById("newQuoteBtn");
+    btn.addEventListener("click", () => {
+      quoteList.innerHTML = `<li>${getRandomQuote()}</li>`;
+    });
+  </script>
 </body>
+
 </html>
-<p>Commit #1 - Sun, Jul  6, 2025  9:57:36 AM</p>
-<p>Commit #2 - Sun, Jul  6, 2025  9:57:38 AM</p>
-<p>Commit #3 - Sun, Jul  6, 2025  9:57:38 AM</p>
-<p>Commit #4 - Sun, Jul  6, 2025  9:57:40 AM</p>
-<p>Commit #5 - Sun, Jul  6, 2025  9:57:41 AM</p>
-<p>Commit #6 - Sun, Jul  6, 2025  9:57:46 AM</p>
-<p>Commit #7 - Sun, Jul  6, 2025  9:57:50 AM</p>
-<p>Commit #8 - Sun, Jul  6, 2025  9:57:51 AM</p>
-<p>Commit #9 - Sun, Jul  6, 2025  9:57:54 AM</p>
-<p>Commit #10 - Sun, Jul  6, 2025  9:57:56 AM</p>

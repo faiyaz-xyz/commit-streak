@@ -1,6 +1,37 @@
 body {
-  font-family: monospace;
-  background: #0f0f0f;
+  font-family: 'Courier New', monospace;
+  background-color: #111;
   color: #00ff88;
   padding: 2rem;
+}
+
+h1 {
+  color: #ff77ff;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin: 1rem 0;
+  background: #222;
+  padding: 1rem;
+  border-left: 5px solid #00ff88;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.5rem 1rem;
+  background: #00ff88;
+  color: #111;
+  border: none;
+  font-family: inherit;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+button:hover {
+  background: #ff77ff;
 }
